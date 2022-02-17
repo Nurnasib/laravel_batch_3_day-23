@@ -1,0 +1,37 @@
+
+ ** Crucial for mastering Laravel->
+    1. request lifecycle
+    2. Routing
+        -Route decides/loads first Controller.
+        -Routes accessed through index.php
+    3. MVC = Model View Controller
+        -Model works with data. Model req Db.
+        -View is view. View requests controller
+        -Controller works with logic. Controller loads view. Controller reqs Model.
+    4. Mastering
+    5. Data sharing
+    6. CRUD
+    7. Middleware
+    8. Auth
+    9. Package
+
+    making controller class->
+              php artisan make:controller ViewController
+
+
+
+
+              {{--<h1>This is your home, SREEJON!</h1>--}}
+
+              {{--<a href="{{ url('/') }}">Home</a>--}}
+              {{--<a href="{{ url('/bitm') }}">BITM</a>--}}
+              {{--<a href="{{ url('/about') }}">About</a>--}}
+              {{--<a href="{{ url('/contact') }}">Contact</a>--}}
+
+              {{--<a href="{{ route('home') }}">Home</a>--}}
+              {{--<a href="{{ route('bitm') }}">BITM</a>--}}
+              {{--<a href="{{ route('about') }}">About</a>--}}
+              {{--<a href="{{ route('contact') }}">Contact</a>--}}
+
+@ = directives
+{{}} = blade syntax
